@@ -4340,6 +4340,16 @@
         "runtime": {
           "lib/netstandard1.3/System.Xml.XPath.XDocument.dll": {}
         }
+      },
+      "Prestige.Common/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "compile": {
+          "bin/placeholder/Prestige.Common.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Prestige.Common.dll": {}
+        }
       }
     }
   },
@@ -7286,12 +7296,11 @@
       ]
     },
     "runtime.native.System.Net.Http/4.3.0": {
-      "sha512": "ZVuZJqnnegJhd2k/PtAbbIcZ3aZeITq3sj06oKfMBSfphW3HDmk/t4ObvbOk/JA/swGR0LNqMksAh/f7gpTROg==",
+      "sha512": "guqHgQOK2eUgtJae2VKjNawBn1xjC0hfOt5wASHa60XHbIdCsQlqtvMsFG+3hy7yp88V+gi9fZCjubuDkeakcQ==",
       "type": "package",
       "path": "runtime.native.system.net.http/4.3.0",
       "files": [
         ".nupkg.metadata",
-        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/netstandard1.0/_._",
@@ -7353,7 +7362,7 @@
       ]
     },
     "runtime.osx.10.10-x64.runtime.native.System.Security.Cryptography.Apple/4.3.0": {
-      "sha512": "kVXCuMTrTlxq4XOOMAysuNwsXWpYeboGddNGpIgNSZmv1b6r/s/DPk0fYMB7Q5Qo4bY68o48jt4T4y5BVecbCQ==",
+      "sha512": "Kh9W4agE0r/hK8AX1LvyQI2NrKHBL8pO0gRoDTdDb0LL6Ta1Z2OtFx3lOaAE0ZpCUc/dt9Wzs3rA7a3IsKdOVA==",
       "type": "package",
       "path": "runtime.osx.10.10-x64.runtime.native.system.security.cryptography.apple/4.3.0",
       "files": [
@@ -7754,7 +7763,7 @@
       ]
     },
     "System.Collections.Specialized/4.3.0": {
-      "sha512": "Epx8PoVZR0iuOnJJDzp7pWvdfMMOAvpUo95pC4ScH2mJuXkKA2Y4aR3cG9qt2klHgSons1WFh4kcGW7cSXvrxg==",
+      "sha512": "NoPBj0ykejqAWW4p4gGtrrL+3c84ZLSvGnHgq422ew1Rj4WKj1FA8/BCybqC111EtgcqUl6ZJNFYYS22HLgbjA==",
       "type": "package",
       "path": "system.collections.specialized/4.3.0",
       "files": [
@@ -11859,6 +11868,11 @@
         "system.xml.xpath.xdocument.4.3.0.nupkg.sha512",
         "system.xml.xpath.xdocument.nuspec"
       ]
+    },
+    "Prestige.Common/1.0.0": {
+      "type": "project",
+      "path": "../Prestige.Common/Prestige.Common.csproj",
+      "msbuildProject": "../Prestige.Common/Prestige.Common.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -11866,43 +11880,42 @@
       "Microsoft.AspNetCore.App >= 2.1.1",
       "Microsoft.AspNetCore.Razor.Design >= 2.1.2",
       "Microsoft.NETCore.App >= 2.1.0",
-      "Microsoft.VisualStudio.Azure.Containers.Tools.Targets >= 1.7.8"
+      "Microsoft.VisualStudio.Azure.Containers.Tools.Targets >= 1.7.8",
+      "Prestige.Common >= 1.0.0"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Miroslav Stoyanov\\.nuget\\packages\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "/home/miroslav-stoyanov/.nuget/packages/": {},
+    "/usr/share/dotnet/sdk/NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\misc\\prestige\\prestige-api\\src\\Prestige.WebApi\\Prestige.WebApi.csproj",
+      "projectUniqueName": "/home/miroslav-stoyanov/prestige/prestige-api/src/Prestige.WebApi/Prestige.WebApi.csproj",
       "projectName": "Prestige.WebApi",
-      "projectPath": "C:\\misc\\prestige\\prestige-api\\src\\Prestige.WebApi\\Prestige.WebApi.csproj",
-      "packagesPath": "C:\\Users\\Miroslav Stoyanov\\.nuget\\packages\\",
-      "outputPath": "C:\\misc\\prestige\\prestige-api\\src\\Prestige.WebApi\\obj\\",
+      "projectPath": "/home/miroslav-stoyanov/prestige/prestige-api/src/Prestige.WebApi/Prestige.WebApi.csproj",
+      "packagesPath": "/home/miroslav-stoyanov/.nuget/packages/",
+      "outputPath": "/home/miroslav-stoyanov/prestige/prestige-api/src/Prestige.WebApi/obj/",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        "/usr/share/dotnet/sdk/NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\Miroslav Stoyanov\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "/home/miroslav-stoyanov/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp2.1"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "https://api.nuget.org/v3/index.json": {},
-        "https://torussoft.pkgs.visualstudio.com/_packaging/backbonefeed/nuget/v2": {},
-        "https://torussoft.pkgs.visualstudio.com/_packaging/backbonefeed/nuget/v3/index.json": {},
-        "https://www.myget.org/F/aspnet-contrib/api/v3/index.json": {},
-        "https://www.myget.org/F/prestige-management-system/api/v3/index.json": {}
+        "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "netcoreapp2.1": {
-          "projectReferences": {}
+          "projectReferences": {
+            "/home/miroslav-stoyanov/prestige/prestige-api/src/Prestige.Common/Prestige.Common.csproj": {
+              "projectPath": "/home/miroslav-stoyanov/prestige/prestige-api/src/Prestige.Common/Prestige.Common.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
@@ -11926,6 +11939,7 @@
             "version": "[2.1.2, )"
           },
           "Microsoft.NETCore.App": {
+            "suppressParent": "All",
             "target": "Package",
             "version": "[2.1.0, )",
             "autoReferenced": true

@@ -1,0 +1,9 @@
+/home/miroslav-stoyanov/prestige/prestige-api/src/Prestige.Common/bin/Debug/netstandard2.0/Prestige.Common.deps.json
+/home/miroslav-stoyanov/prestige/prestige-api/src/Prestige.Common/bin/Debug/netstandard2.0/Prestige.Common.dll
+/home/miroslav-stoyanov/prestige/prestige-api/src/Prestige.Common/bin/Debug/netstandard2.0/Prestige.Common.pdb
+/home/miroslav-stoyanov/prestige/prestige-api/src/Prestige.Common/obj/Debug/netstandard2.0/Prestige.Common.csprojAssemblyReference.cache
+/home/miroslav-stoyanov/prestige/prestige-api/src/Prestige.Common/obj/Debug/netstandard2.0/Prestige.Common.csproj.CoreCompileInputs.cache
+/home/miroslav-stoyanov/prestige/prestige-api/src/Prestige.Common/obj/Debug/netstandard2.0/Prestige.Common.AssemblyInfoInputs.cache
+/home/miroslav-stoyanov/prestige/prestige-api/src/Prestige.Common/obj/Debug/netstandard2.0/Prestige.Common.AssemblyInfo.cs
+/home/miroslav-stoyanov/prestige/prestige-api/src/Prestige.Common/obj/Debug/netstandard2.0/Prestige.Common.dll
+/home/miroslav-stoyanov/prestige/prestige-api/src/Prestige.Common/obj/Debug/netstandard2.0/Prestige.Common.pdb
